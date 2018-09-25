@@ -1,0 +1,38 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "utter_deny_loan": {
+      "slots": []
+    },
+    "utter_report": {
+      "slots": []
+    },
+    "utter_second_breach": {
+      "slots": []
+    },
+    "action_default_fallback": {
+      "slots": []
+    },
+    "utter_others_notice_2": {
+      "slots": []
+    },
+    "utter_others_notice_deny": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.11.3",
+  "python": "3.6.5",
+  "max_histories": [
+    null,
+    3,
+    3
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}

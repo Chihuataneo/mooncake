@@ -1,0 +1,836 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "deny",
+        "text": "不是啊"
+      },
+      {
+        "intent": "deny",
+        "text": "不是"
+      },
+      {
+        "intent": "deny",
+        "text": "谁啊？"
+      },
+      {
+        "intent": "deny",
+        "text": "不知道啊"
+      },
+      {
+        "intent": "deny",
+        "text": "不知道"
+      },
+      {
+        "intent": "deny",
+        "text": "不知道"
+      },
+      {
+        "intent": "deny",
+        "text": "不行"
+      },
+      {
+        "intent": "deny",
+        "text": "不行"
+      },
+      {
+        "intent": "deny",
+        "text": "没有"
+      },
+      {
+        "intent": "deny",
+        "text": "没"
+      },
+      {
+        "intent": "deny",
+        "text": "没结"
+      },
+      {
+        "intent": "deny",
+        "text": "没房子"
+      },
+      {
+        "intent": "deny",
+        "text": "没房"
+      },
+      {
+        "intent": "deny",
+        "text": "不认识"
+      },
+      {
+        "intent": "deny",
+        "text": "谁，不知道"
+      },
+      {
+        "intent": "deny",
+        "text": "不认识啊"
+      },
+      {
+        "intent": "deny",
+        "text": "不知道啊"
+      },
+      {
+        "intent": "deny",
+        "text": "没有了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "再见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "拜拜"
+      },
+      {
+        "intent": "goodbye",
+        "text": "很高兴和你说话"
+      },
+      {
+        "intent": "bargain",
+        "text": "介意息费"
+      },
+      {
+        "intent": "bargain",
+        "text": "账单不对"
+      },
+      {
+        "intent": "bargain",
+        "text": "你们利息算错了"
+      },
+      {
+        "intent": "bargain",
+        "text": "我本金多少"
+      },
+      {
+        "intent": "bargain",
+        "text": "我只还本金"
+      },
+      {
+        "intent": "bargain",
+        "text": "利息太高了"
+      },
+      {
+        "intent": "bargain",
+        "text": "我要看账单"
+      },
+      {
+        "intent": "bargain",
+        "text": "你们之前做过减免"
+      },
+      {
+        "intent": "bargain",
+        "text": "现在能减免多少"
+      },
+      {
+        "intent": "bargain",
+        "text": "你们这边能减多少"
+      },
+      {
+        "intent": "sharp_answer",
+        "text": "拒绝还款"
+      },
+      {
+        "intent": "sharp_answer",
+        "text": "你们去告吧"
+      },
+      {
+        "intent": "sharp_answer",
+        "text": "爱怎么办怎么办"
+      },
+      {
+        "intent": "sharp_answer",
+        "text": "那你们就走流程吧"
+      },
+      {
+        "intent": "sharp_answer",
+        "text": "我就不还了"
+      },
+      {
+        "intent": "sharp_answer",
+        "text": "滚"
+      },
+      {
+        "intent": "sharp_answer",
+        "text": "你妈的"
+      },
+      {
+        "intent": "sharp_answer",
+        "text": "我就不还，咋地"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯，认识"
+      },
+      {
+        "intent": "confirm",
+        "text": "认识啊"
+      },
+      {
+        "intent": "confirm",
+        "text": "有啊"
+      },
+      {
+        "intent": "confirm",
+        "text": "有"
+      },
+      {
+        "intent": "confirm",
+        "text": "有的"
+      },
+      {
+        "intent": "confirm",
+        "text": "结婚了"
+      },
+      {
+        "intent": "confirm",
+        "text": "结了"
+      },
+      {
+        "intent": "confirm",
+        "text": "我知道"
+      },
+      {
+        "intent": "confirm",
+        "text": "我都清楚"
+      },
+      {
+        "intent": "confirm",
+        "text": "行，我知道了"
+      },
+      {
+        "intent": "confirm",
+        "text": "我明白"
+      },
+      {
+        "intent": "confirm",
+        "text": "好的"
+      },
+      {
+        "intent": "confirm",
+        "text": "行"
+      },
+      {
+        "intent": "confirm",
+        "text": "可以的"
+      },
+      {
+        "intent": "confirm",
+        "text": "中中"
+      },
+      {
+        "intent": "confirm",
+        "text": "中"
+      },
+      {
+        "intent": "confirm",
+        "text": "可以"
+      },
+      {
+        "intent": "confirm",
+        "text": "行的"
+      },
+      {
+        "intent": "confirm",
+        "text": "没问题"
+      },
+      {
+        "intent": "confirm",
+        "text": "恩"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯"
+      },
+      {
+        "intent": "confirm",
+        "text": "是的"
+      },
+      {
+        "intent": "confirm",
+        "text": "是"
+      },
+      {
+        "intent": "confirm",
+        "text": "对啊"
+      },
+      {
+        "intent": "confirm",
+        "text": "对"
+      },
+      {
+        "intent": "confirm",
+        "text": "知道了"
+      },
+      {
+        "intent": "confirm",
+        "text": "知道啦"
+      },
+      {
+        "intent": "instalments",
+        "text": "每个月还点行不行"
+      },
+      {
+        "intent": "instalments",
+        "text": "这个月先还一点，剩下的下个月结清"
+      },
+      {
+        "intent": "instalments",
+        "text": "先还XX"
+      },
+      {
+        "intent": "instalments",
+        "text": "每个月还XX千"
+      },
+      {
+        "intent": "instalments",
+        "text": "每个月还XX万"
+      },
+      {
+        "intent": "instalments",
+        "text": "能分期吗"
+      },
+      {
+        "intent": "instalments",
+        "text": "分期可以吗"
+      },
+      {
+        "intent": "instalments",
+        "text": "能不能分期"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢谢"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢谢您"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢谢你"
+      },
+      {
+        "intent": "thanks",
+        "text": "非常感谢"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢谢啊"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢了"
+      },
+      {
+        "intent": "request_money",
+        "text": "我欠了多少钱啊"
+      },
+      {
+        "intent": "request_money",
+        "text": "我欠了多少"
+      },
+      {
+        "intent": "request_money",
+        "text": "多少钱"
+      },
+      {
+        "intent": "request_money",
+        "text": "还剩多少欠款？"
+      },
+      {
+        "intent": "request_money",
+        "text": "还得还多少钱"
+      },
+      {
+        "intent": "request_money",
+        "text": "现在还欠多少"
+      },
+      {
+        "intent": "paid_back",
+        "text": "我已经还款了"
+      },
+      {
+        "intent": "paid_back",
+        "text": "我还了啊"
+      },
+      {
+        "intent": "paid_back",
+        "text": "我昨天就还了啊"
+      },
+      {
+        "intent": "deny_loan",
+        "text": "我没有贷过款"
+      },
+      {
+        "intent": "deny_loan",
+        "text": "钱不是我用的"
+      },
+      {
+        "intent": "deny_loan",
+        "text": "卡是我爱人用的"
+      },
+      {
+        "intent": "deny_loan",
+        "text": "卡是我丈夫用的"
+      },
+      {
+        "intent": "deny_loan",
+        "text": "卡是别人用的"
+      },
+      {
+        "intent": "deny_loan",
+        "text": "卡被盗刷了"
+      },
+      {
+        "intent": "deny_loan",
+        "text": "卡丢了，不是我刷的"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "我没钱啊"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "真的没钱"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "没钱啊"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "投资失败了"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "生意失败了"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "我那个店倒了"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "现在破产了"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "现在遇到点困难"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "家里有人生病"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "老人生病"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "没有工作"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "没发工资"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "我病了"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "前段时间出了点事"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "遇到点事"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "现在生活困难"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "怀孕了"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "没发工资"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "暂时没钱"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "我的钱不够"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "我在外地"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "我的银行卡不在身边"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "借不到"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "在打工还"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "都借遍了"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "房子车都已经卖了"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "外头欠了几百万，现在还不上"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "没人借"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "父母也没有能力"
+      },
+      {
+        "intent": "cant_pay",
+        "text": "都没有能力"
+      },
+      {
+        "intent": "part",
+        "text": "最低还多少"
+      },
+      {
+        "intent": "part",
+        "text": "为什么没有最低"
+      },
+      {
+        "intent": "part",
+        "text": "我就按最低来还"
+      },
+      {
+        "intent": "part",
+        "text": "你们之前说过可以还最低"
+      },
+      {
+        "intent": "part",
+        "text": "先处理一部分"
+      },
+      {
+        "intent": "part",
+        "text": "处理XX百"
+      },
+      {
+        "intent": "part",
+        "text": "先还XX千"
+      },
+      {
+        "intent": "part",
+        "text": "今天先还一点，剩下的XX之前处理"
+      },
+      {
+        "intent": "part",
+        "text": "能不能先还一点"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "现在还"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "一会儿就还"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "这就还"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "我肯定会还"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "我一分钱不会欠你们的"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "不会少你们的"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "利息和违约金我都会还"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "今天下午还"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "不确定时间"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "再给我几天时间"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "给我点时间"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "我需要时间"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "帮我拖几天"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "这个/下个周之内还"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "这个月底"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "XX号之前肯定能还"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "等我工程款下来"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "房子已经在卖了"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "车子已经在卖了"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "别人的欠款收回来"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "确定时间"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "这个月XX号肯定能还上。"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "这周X号肯定结清"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "明天"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "后天上午"
+      },
+      {
+        "intent": "promise_pay",
+        "text": "下午几点之前结清"
+      },
+      {
+        "intent": "how_pay",
+        "text": "APP无法还款"
+      },
+      {
+        "intent": "how_pay",
+        "text": "手机丢了"
+      },
+      {
+        "intent": "how_pay",
+        "text": "账户密码不记得了"
+      },
+      {
+        "intent": "how_pay",
+        "text": "银行卡挂失了"
+      },
+      {
+        "intent": "how_pay",
+        "text": "身份证丢失了"
+      },
+      {
+        "intent": "how_pay",
+        "text": "我需要用网页还款"
+      },
+      {
+        "intent": "how_pay",
+        "text": "银行卡还款限额"
+      },
+      {
+        "intent": "how_pay",
+        "text": "怎么还款"
+      },
+      {
+        "intent": "how_pay",
+        "text": "我上哪儿还"
+      },
+      {
+        "intent": "how_pay",
+        "text": "不会还"
+      },
+      {
+        "intent": "how_pay",
+        "text": "还不来"
+      },
+      {
+        "intent": "how_pay",
+        "text": "怎么还啊"
+      },
+      {
+        "intent": "how_pay",
+        "text": "我还不了啊"
+      },
+      {
+        "intent": "how_pay",
+        "text": "我还不进去"
+      },
+      {
+        "intent": "how_pay",
+        "text": "这边没有银行"
+      },
+      {
+        "intent": "how_pay",
+        "text": "我没有支付宝"
+      },
+      {
+        "intent": "how_pay",
+        "text": "微信限额了"
+      },
+      {
+        "intent": "how_pay",
+        "text": "跨行转账行不行"
+      },
+      {
+        "intent": "how_pay",
+        "text": "微信用不了"
+      },
+      {
+        "intent": "ask_id",
+        "text": "你工号多少"
+      },
+      {
+        "intent": "ask_id",
+        "text": "你是哪个部门的"
+      },
+      {
+        "intent": "ask_id",
+        "text": "你们是谁"
+      },
+      {
+        "intent": "ask_id",
+        "text": "你们凭什么打电话"
+      },
+      {
+        "intent": "ask_id",
+        "text": "让银行跟我联系"
+      },
+      {
+        "intent": "ask_id",
+        "text": "你们没资格"
+      },
+      {
+        "intent": "ask_id",
+        "text": "对不起，不能提供"
+      },
+      {
+        "intent": "ask_id",
+        "text": "你们就是催收"
+      },
+      {
+        "intent": "ask_id",
+        "text": "你们不是法务"
+      },
+      {
+        "intent": "ask_id",
+        "text": "你们是骚扰"
+      },
+      {
+        "intent": "ask_id",
+        "text": "你们是诈骗"
+      },
+      {
+        "intent": "ask_id",
+        "text": "你们什么单位"
+      },
+      {
+        "intent": "ask_id",
+        "text": "你们是哪的"
+      },
+      {
+        "intent": "report",
+        "text": "我要去投诉你们"
+      },
+      {
+        "intent": "report",
+        "text": "我要曝光"
+      },
+      {
+        "intent": "report",
+        "text": "我要找媒体"
+      },
+      {
+        "intent": "report",
+        "text": "我要报警"
+      },
+      {
+        "intent": "report",
+        "text": "我这就报警"
+      },
+      {
+        "intent": "deny_inform",
+        "text": "你们没有权利核实我的信息"
+      },
+      {
+        "intent": "deny_inform",
+        "text": "不提供"
+      },
+      {
+        "intent": "deny_inform",
+        "text": "没必要告诉你"
+      },
+      {
+        "intent": "deny_inform",
+        "text": "没有义务配合你"
+      },
+      {
+        "intent": "require_influence",
+        "text": "会有什么影响？"
+      },
+      {
+        "intent": "require_influence",
+        "text": "不还会怎样？"
+      },
+      {
+        "intent": "require_influence",
+        "text": "那我该怎么办？"
+      },
+      {
+        "intent": "require_influence",
+        "text": "还上就没事了是吧？"
+      },
+      {
+        "intent": "require_influence",
+        "text": "对孩子有什么影响？"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
