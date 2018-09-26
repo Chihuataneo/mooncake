@@ -54,8 +54,6 @@ templates:
     - "喂，在吗？"
     - "喂？"
     - "在吗？"
-  utter_24_hours:
-    - "因为你这个逾期很久了，你需要在二十四小时内结清欠款，你这个可以处理吗？"
   utter_second_breach:
     - "嗯，我备注了你的信息。后续会持续跟进，我还是需要提醒一下，你已经违约了一次，如果这次还没有还款的话，你要承担二次违约的责任了。好吧，嗯嗯嗯，还有，就是结清钱款后，别忘了致电我们，我们会帮助撤案，打这个电话就行，好吧，嗯，再见。"
   utter_credit_investigation:
@@ -81,8 +79,6 @@ templates:
   utter_greet:
     - "喂，你好。请问是XXX吗？"
     - "喂，你是XXX吗？"
-  utter_ask_if_know:
-    - "请问您认识他吗？"
   utter_ask_id:
     - "我是XX银行的委托机构。"
   utter_others_notice_1:
@@ -180,25 +176,10 @@ actions:
   - utter_promise_pay
   - utter_paid_back
   - utter_deny_loan
-  - utter_no_sound_one
-  - utter_cant_pay
-  - utter_how_pay
-  - utter_channel_block
-  - utter_deny_overdue
-  - utter_auto_deduct
-  - utter_no_sound_two
-  - utter_deny_dispute
-  - utter_rest
   - utter_request_money
   - utter_ask_lowest
   - utter_thanks
   - utter_other_reason
   - utter_case_notice
-  - action_ask_marriage
-  - action_marriage_yes
-  - action_house_yes
-  - action_car_yes
+  - utter_how_pay
   - action_handle
-  - action_marriage_no
-  - action_house_no
-  - action_car_no
